@@ -87,7 +87,7 @@ module Fastlane
             prefix: "v",
             build_number: 123
           )',
-          '# Alternatively, you can specify your own tag. Note that if you do specify a tag, all other arguments are ignored.
+          '# Alternatively, you can specify your own tag. Note that if you do specify a tag then group, prefix, and build_number arguments will be ignored.
           add_git_tag(
             tag: "my_custom_tag"
           )'
